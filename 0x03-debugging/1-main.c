@@ -1,14 +1,15 @@
 #include <stdio.h>
-
 /**
  * main - Entry point for the program
  *
- * This function is the entry point for the program. It initializes an integer
- * variable `i` to 0 and then prints a message indicating that an infinite loop
- * is about to start. However, the loop is commented out, so it will not execute.
- * Instead, the program prints a message indicating that the infinite loop was
- * avoided, and returns 0 to indicate success.
- * '\\o/\n"' Represents a happy face with raised arms
+ * This function initializes an integer variable `i` to 0 and prints a message
+ * to the standard output indicating that an infinite loop is about to start.
+ * However, the loop is commented out, so it will not execute.
+ * The program then prints a message to the standard output indicating that
+ * the infinite loop was avoided by using a comment, and returns 0 to indicate
+ * success.
+ *
+ * \\o/\n  represents a happy face with raised arms.
  *
  * Return: Always 0
  */
