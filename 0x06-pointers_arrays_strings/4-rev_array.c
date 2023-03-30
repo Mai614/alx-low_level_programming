@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * reverse_array - reverse the array
  * @a: an array of integers
@@ -20,7 +19,6 @@ printf(", ");
 }
 printf("%d", a[i - 1]);
 i--;
-
 }
 printf("\n");
 }
