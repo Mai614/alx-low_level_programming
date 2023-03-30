@@ -21,10 +21,10 @@ return (0);
 }
 else if (s1[i] < s2[i])
 {
-return (-15);
+return (-1);
 }
 else
 {
-return (15);
+return (1);
 }
 }
