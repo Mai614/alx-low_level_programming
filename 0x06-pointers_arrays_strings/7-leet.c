@@ -8,21 +8,17 @@
 char *leet(char *str)
 {
 int i, j;
-char leet_chars[] = "1337";
-char letters[] = "aAeEoOtTlL";
-
+char s1[] = "aAeEoOtTlL";
+char s2[] = "4433771100";
 for (i = 0; str[i] != '\0'; i++)
 {
 for (j = 0; j < 10; j++)
 {
-if (str[i] == letters[j])
+if (str[i] == s1[j])
 {
-str[i] = leet_chars[j];
-break;
+str[i] = s2[j];
 }
 }
 }
-
-/* Return a pointer to the modified string */
 return (str);
 }
