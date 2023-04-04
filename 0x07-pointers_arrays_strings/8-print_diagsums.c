@@ -18,7 +18,7 @@ sum1 += *(a + i * size + i);
 sum2 += *(a + i * size + (size - i - 1));
 }
 
-printf("Sum of diagonal from top-left to bottom-right: %d\n", sum1);
-printf("Sum of diagonal from bottom-left to top-right: %d\n", sum2);
+printf("%d\n", sum1);
+printf("%d\n", sum2);
 }
 
