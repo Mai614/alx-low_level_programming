@@ -32,4 +32,5 @@ if (arr == NULL)
 return (NULL);
 }
 return (arr);
+free(arr);
 }
