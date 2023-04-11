@@ -1,5 +1,6 @@
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
+#include <ctype.h>
 /**
  *main - entery point
  *@argc: count of the arguments
@@ -9,20 +10,23 @@
 
 int main(int argc, char *argv[])
 {
-
-int number1 = atoi(argv[1]);
-int number2 = atoi(argv[2]);
-int mul;
-if (argc != 3)
-
+int i, j;
+int sum = 0;
+for (i = 1; i < argc; i++)
+{
+char *cs = argv[i];
+for (j = 0; cs[j] != '\0'; j++)
+{
+if (!isdigit(cs[j]))
 {
 printf("Error\n");
 return (1);
 }
-else
-{
-mul = number1 * number2;
-printf("%d\n", mul);
 }
+sum += atoi(cs);
+}
+printf("%d\n", sum);
+
 return (0);
+
 }
