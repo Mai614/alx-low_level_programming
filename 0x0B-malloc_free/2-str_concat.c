@@ -33,5 +33,5 @@ memcpy(s3 + len1, s2, len2);
 s3[len1 + len2] = '\0';
 
 return (s3);
-
+free (s3);
 }
