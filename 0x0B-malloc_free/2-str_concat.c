@@ -17,10 +17,10 @@ char *s3;
 size_t len1 = 0, len2 = 0;
 
 if (s1 == NULL)
-s1 = " ";
+s1 = NULL;
 
 if (s2 == NULL)
-s2 = " ";
+s2 = NULL;
 
 s3 = malloc(len1 + len2 + 1);
 if (s3 == NULL)
