@@ -14,6 +14,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 size_t s1_len, s2_len;
 char *concatinate;
+unsigned int i;
 
 if (s1 == NULL)
 s1 = " ";
@@ -36,9 +37,13 @@ if (concatinate == NULL)
 return (NULL);
 }
 
+for (i = 0; i < s1_len; i++)
+concatinate[i] = s1[i];
 
-memcpy(concatinate, s1, s1_len);
-memcpy(concatinate + s1_len, s2, n);
+for (i = 0; i < n; i++)
+concatinate[s1_len + i] = s2[i];
+
+concatinate[s1_len + n] = '\0';
 
 return (concatinate);
 
