@@ -1,5 +1,4 @@
-#include "calc.h"
-
+#include "3-calc.h"
 /**
  *op_add - Adds two integers
  *@a: The first integer to be added
@@ -43,11 +42,6 @@ return (a * b);
  */
 int op_div(int a, int b)
 {
-if (b == 0)
-{
-printf("Error\n");
-exit(0);
-}
 return (a / b);
 }
 
