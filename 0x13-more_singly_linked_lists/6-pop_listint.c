@@ -6,7 +6,7 @@
  *
  *@head : pointer to a pointer to the head of the list
  *
- *Return : the head node’s data (n).
+ *Return: the head node’s data (n).
  *if the linked list is empty return 0
  */
 
