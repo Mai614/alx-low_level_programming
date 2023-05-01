@@ -7,6 +7,7 @@
  *@head : pointer to a pointer to the head of the list
  *
  *Return : the head node’s data (n).
+ *if the linked list is empty return 0
  */
 
 int pop_listint(listint_t **head)
@@ -17,7 +18,9 @@ int d;
 listint_t *temp;
 
 if (*head == NULL || head == NULL)
+{
 return (0);
+}
 
 d = (*head)->n;
 temp = (*head)->next;
