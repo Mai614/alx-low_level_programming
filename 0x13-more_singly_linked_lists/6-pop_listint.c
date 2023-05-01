@@ -16,7 +16,7 @@ int d;
 
 listint_t *temp;
 
-if (*head == NULL)
+if (*head == NULL || head == NULL)
 return (0);
 
 d = (*head)->n;
