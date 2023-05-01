@@ -4,9 +4,9 @@
 /**
  *sum_listint - a function that returns the sum of all the
  *data (n) of a listint_t linked list
- *@head : pointer to the head of list
+ *@head: pointer to the head of list
  *
- *Return : retuen the sum of the list
+ *Return: the sum of the list
  */
 
 int sum_listint(listint_t *head)
