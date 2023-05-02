@@ -36,9 +36,7 @@ return (new_node);
 prev = *head;
 
 for (i = 0; i < idx - 1 && prev != NULL; i++)
-{
 prev = prev->next;
-}
 
 if (prev == NULL)
 {
@@ -46,7 +44,7 @@ free(new_node);
 return (NULL);
 }
 
-new_node = prev->next;
+new_node->next = prev->next;
 prev->next = new_node;
 
 return (new_node);
