@@ -16,10 +16,13 @@ return;
 
 while (*head != NULL)
 {
+
 current = *head;
+
 *head = (*head)->next;
 
 free(current);
+
 }
 
 *head = NULL;

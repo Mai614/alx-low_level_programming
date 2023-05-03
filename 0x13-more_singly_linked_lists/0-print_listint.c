@@ -4,7 +4,6 @@
 
 /**
  *print_listint - prints all the elements of a list_t list
- *
  *@h : head of list top print
  *Return: the number of nodes
  */

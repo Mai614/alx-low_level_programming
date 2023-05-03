@@ -22,7 +22,9 @@ if (index == 0)
 {
 current = *head;
 *head = (*head)->next;
+
 free(current);
+
 return (1);
 }
 
@@ -31,7 +33,9 @@ current = (*head)->next;
 
 for (i = 0; i < index; i++)
 {
+
 if (current == NULL)
+
 return (-1);
 
 prev = current;

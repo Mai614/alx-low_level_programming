@@ -30,6 +30,7 @@ if (idx == 0)
 {
 new_node->next = *head;
 *head = new_node;
+
 return (new_node);
 }
 
@@ -41,6 +42,7 @@ prev = prev->next;
 if (prev == NULL)
 {
 free(new_node);
+
 return (NULL);
 }
 

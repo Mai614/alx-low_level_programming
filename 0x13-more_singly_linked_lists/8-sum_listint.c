@@ -18,10 +18,14 @@ return (0);
 
 while (head != NULL)
 {
+
 d = head->n;
 sum += d;
+
 head = head->next;
+
 }
 
 return (sum);
+
 }
