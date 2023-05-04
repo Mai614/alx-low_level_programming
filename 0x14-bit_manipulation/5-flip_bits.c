@@ -19,9 +19,8 @@ while (different > 0)
 count += (different & 1);
 
 different >>= 1;
-	
+
 }
 
 return (count);
 }
-
