@@ -3,6 +3,8 @@
 
 /**
  * main - check the code
+ *@ac: the number of command-line arguments
+ *@av: an array of command-line argument strings
  *
  * Return: Always 0.
  */
