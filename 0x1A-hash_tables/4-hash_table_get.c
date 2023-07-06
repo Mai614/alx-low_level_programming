@@ -18,7 +18,7 @@ if (ht == NULL || key == NULL)
 return (NULL);
 
 index = key_index((const unsigned char *)key, ht->size);
-*node = ht->array[index];
+node = ht->array[index];
 
 while (node != NULL)
 {
