@@ -3,8 +3,8 @@
 /**
  * binary_search - Searches for a value in a sorted array
  *
- * @array: A pointer to the first element 
- * @size: The number of elements 
+ * @array: A pointer to the first element
+ * @size: The number of elements
  * @value: The value to search for
  *
  * Return: If the value is not present or the array is NULL, -1.
